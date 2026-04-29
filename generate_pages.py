@@ -1,6 +1,6 @@
 import os
 
-with open('flowai.html', 'r') as f:
+with open('index.html', 'r') as f:
     lines = f.readlines()
 
 header = []
@@ -36,7 +36,7 @@ page_404 = """
             <h1 style="font-size: clamp(6rem, 15vw, 12rem); margin-bottom: 0.5rem;" class="gradient-text">404</h1>
             <p class="hero-subtitle" style="font-size: 1.5rem; color: var(--text-primary); margin-bottom: 3rem;">This page took a wrong turn</p>
             <div class="hero-cta">
-                <a href="flowai.html" class="btn btn-primary btn-large">Back home <span aria-hidden="true">→</span></a>
+                <a href="index.html" class="btn btn-primary btn-large">Back home <span aria-hidden="true">→</span></a>
             </div>
             
             <div class="hero-mockup" style="max-width: 400px; margin-top: 3rem; transform: rotate(-5deg);">
