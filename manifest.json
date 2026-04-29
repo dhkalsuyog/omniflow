@@ -1,0 +1,26 @@
+{
+  "name": "FlowAI Workspace",
+  "short_name": "FlowAI",
+  "description": "The unified AI workspace where modern teams write, automate, and analyze at the speed of thought.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#03040a",
+  "theme_color": "#03040a",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
